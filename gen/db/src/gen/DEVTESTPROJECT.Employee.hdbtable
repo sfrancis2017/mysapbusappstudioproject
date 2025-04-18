@@ -1,0 +1,12 @@
+COLUMN TABLE DEVTESTPROJECT_Employee (
+  ID NVARCHAR(36) NOT NULL,
+  createdAt TIMESTAMP,
+  createdBy NVARCHAR(255),
+  modifiedAt TIMESTAMP,
+  modifiedBy NVARCHAR(255),
+  employeeID NVARCHAR(50),
+  employeeName NVARCHAR(100),
+  employeeLocation NVARCHAR(100),
+  employeeSalary DECIMAL(10, 2),
+  PRIMARY KEY(ID)
+)

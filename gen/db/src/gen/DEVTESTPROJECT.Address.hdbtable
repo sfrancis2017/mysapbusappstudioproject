@@ -1,0 +1,13 @@
+COLUMN TABLE DEVTESTPROJECT_Address (
+  ID NVARCHAR(36) NOT NULL,
+  createdAt TIMESTAMP,
+  createdBy NVARCHAR(255),
+  modifiedAt TIMESTAMP,
+  modifiedBy NVARCHAR(255),
+  city NVARCHAR(50),
+  street NVARCHAR(100),
+  building NVARCHAR(50),
+  country NVARCHAR(50),
+  businessPartner_ID NVARCHAR(36),
+  PRIMARY KEY(ID)
+)

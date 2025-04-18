@@ -1,0 +1,11 @@
+VIEW dEVTESTPROJECTSrv_Employee AS SELECT
+  Employee_0.ID,
+  Employee_0.createdAt,
+  Employee_0.createdBy,
+  Employee_0.modifiedAt,
+  Employee_0.modifiedBy,
+  Employee_0.employeeID,
+  Employee_0.employeeName,
+  Employee_0.employeeLocation,
+  Employee_0.employeeSalary
+FROM DEVTESTPROJECT_Employee AS Employee_0

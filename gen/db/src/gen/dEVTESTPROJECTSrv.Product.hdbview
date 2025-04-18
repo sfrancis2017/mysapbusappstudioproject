@@ -1,0 +1,14 @@
+VIEW dEVTESTPROJECTSrv_Product AS SELECT
+  Product_0.ID,
+  Product_0.createdAt,
+  Product_0.createdBy,
+  Product_0.modifiedAt,
+  Product_0.modifiedBy,
+  Product_0.productID,
+  Product_0.category,
+  Product_0.description,
+  Product_0.price,
+  Product_0.Currency_code,
+  Product_0.dimensions,
+  Product_0.businessPartner_ID
+FROM DEVTESTPROJECT_Product AS Product_0

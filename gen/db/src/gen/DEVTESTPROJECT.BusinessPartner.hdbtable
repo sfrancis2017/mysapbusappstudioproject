@@ -1,0 +1,12 @@
+COLUMN TABLE DEVTESTPROJECT_BusinessPartner (
+  ID NVARCHAR(36) NOT NULL,
+  createdAt TIMESTAMP,
+  createdBy NVARCHAR(255),
+  modifiedAt TIMESTAMP,
+  modifiedBy NVARCHAR(255),
+  email NVARCHAR(100),
+  phoneNumber NVARCHAR(20),
+  companyName NVARCHAR(100),
+  address_ID NVARCHAR(36),
+  PRIMARY KEY(ID)
+)

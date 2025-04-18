@@ -1,0 +1,11 @@
+VIEW dEVTESTPROJECTSrv_BusinessPartner AS SELECT
+  BusinessPartner_0.ID,
+  BusinessPartner_0.createdAt,
+  BusinessPartner_0.createdBy,
+  BusinessPartner_0.modifiedAt,
+  BusinessPartner_0.modifiedBy,
+  BusinessPartner_0.email,
+  BusinessPartner_0.phoneNumber,
+  BusinessPartner_0.companyName,
+  BusinessPartner_0.address_ID
+FROM DEVTESTPROJECT_BusinessPartner AS BusinessPartner_0

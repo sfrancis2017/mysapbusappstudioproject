@@ -1,0 +1,12 @@
+VIEW dEVTESTPROJECTSrv_PurchaseOrder AS SELECT
+  PurchaseOrder_0.ID,
+  PurchaseOrder_0.createdAt,
+  PurchaseOrder_0.createdBy,
+  PurchaseOrder_0.modifiedAt,
+  PurchaseOrder_0.modifiedBy,
+  PurchaseOrder_0.orderID,
+  PurchaseOrder_0.status,
+  PurchaseOrder_0.amounts,
+  PurchaseOrder_0.Currency_code,
+  PurchaseOrder_0.businessPartner_ID
+FROM DEVTESTPROJECT_PurchaseOrder AS PurchaseOrder_0

@@ -1,0 +1,15 @@
+COLUMN TABLE DEVTESTPROJECT_Product (
+  ID NVARCHAR(36) NOT NULL,
+  createdAt TIMESTAMP,
+  createdBy NVARCHAR(255),
+  modifiedAt TIMESTAMP,
+  modifiedBy NVARCHAR(255),
+  productID NVARCHAR(50),
+  category NVARCHAR(50),
+  description NVARCHAR(200),
+  price DECIMAL(10, 2),
+  Currency_code NVARCHAR(3),
+  dimensions NVARCHAR(50),
+  businessPartner_ID NVARCHAR(36),
+  PRIMARY KEY(ID)
+)
